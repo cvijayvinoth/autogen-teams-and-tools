@@ -59,7 +59,7 @@ AutoGen v0.4 introduces declarative team orchestration and isolated agent bounda
 │   └── custom_termination.py       # TextMention, MaxMessage, and combined termination rules
 ├── 05_multi_agent_operations/
 │   └── news_desk_pipeline.py       # End-to-end team workflow (Search -> Draft -> Review -> TERMINATE)
-├── .env.example
+├── env.example
 ├── .gitignore
 ├── requirements.txt
 └── README.md
@@ -72,7 +72,7 @@ AutoGen v0.4 introduces declarative team orchestration and isolated agent bounda
 ### 1. Prerequisites
 
 - Python 3.10 – 3.12 (or 3.13 with compatible wheels)
-- OpenAI API key configured in an active `.env` file
+- OpenAI API key configured in an active `env` file
 
 ### 2. Virtual Environment Configuration
 
@@ -98,7 +98,7 @@ python -m pip install -r requirements.txt
 ### 4. Secret Configuration
 
 ```bash
-cp .env.example .env
+cp env.example .env
 ```
 
 Set your API key in `.env`:
