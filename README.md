@@ -49,7 +49,7 @@ AutoGen v0.4 introduces declarative team orchestration and isolated agent bounda
 ```
 .
 ├── 01_web_search_tool/
-│   └── weather_news.py             # Day 2 Lab: DDGS tool integration & reflect_on_tool_use
+│   └── weather_news.py             # Lab: DDGS tool integration & reflect_on_tool_use
 ├── 02_agent_memory/
 │   └── context_memory.py           # Multi-turn context preservation and memory retention
 ├── 03_teams_and_collaboration/
@@ -157,9 +157,9 @@ await model_client.close()
 
 ---
 
-## Lab Execution: Weather News Agent (Day 2)
+## Lab Execution: Weather News Agent
 
-Run the Day 2 single-agent search integration:
+Run the single-agent search integration:
 
 ```bash
 python 01_web_search_tool/weather_news.py
